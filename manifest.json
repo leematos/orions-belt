@@ -1,7 +1,7 @@
 {
   "applications": {
     "gecko": {
-      "id": "lean-tab-limiter@etienneguerlain.fr",
+      "id": "orions-belt@humans.find.me",
       "strict_min_version": "58.0a1"
     }
   },
@@ -10,22 +10,17 @@
       "background.js"
     ]
   },
-  "options_ui": {
-    "page": "options/options.html",
-    "browser_style": true
-  },
-  "description": "Limits the number of tabs that can be opened",
+  "description": "Limits Orion to 12 tabs",
   "manifest_version": 2,
-  "name": "Lean Tab Limiter",
-  "author": "Etienne Guerlain",
-  "homepage_url": "https://github.com/eguerlain/lean-tab-limiter",
+  "name": "Orion's Belt",
+  "author": "Etienne G. & Lee M.",
+  "homepage_url": "https://github.com/leematos/orions-belt",
   "icons": {
-    "48": "icons/lean-tab-limiter-48.png"
+    "48": "icons/orions-belt-48px.png"
   },
   "permissions": [
-    "tabs",
-    "storage"
+    "tabs"
   ],
   "version": "0.1",
-  "DEFAULT_TAB_LIMIT": 6
+  "DEFAULT_TAB_LIMIT": 12
 }
